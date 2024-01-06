@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title>Kaze Sushi</title>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Solway&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  
+</head>
+<body>
+
+<div class="bg"></div>
+
+<a id="backtotop"><i class="fa fa-chevron-up"></i></a>
+
+<script type="text/javascript" src="jquery.backtotop.js"></script>
+
+<header>
+ 
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+        <img src="kaze sushi logo.jpg" class="logo">
+         
+        <nav class="navbar">
+           <ul>
+            <li><a href="kaze sushi bakar.html#Home">Home</a><i class="fa fa-home"></i></li>
+            <li><a href="kaze sushi bakar.html#About Us">About Us</a><i class="fa fa-user"></i></li>
+            <li><a href="#Category">Category</a><i class="fa fa-lightbulb"></i></li>
+            <li>
+              <a href="Ya.html#Menu">Menu <i class="fas fa-caret-down"></i></a>
+ 
+                <div class="dropdown">
+                 <ul>
+                  <li><a href="Ya.html#Sushi">Sushi</a></li>
+                  <li><a href="Ya.html#Set Meals">Set Meals</a></li>
+                  <li><a href="Ya.html#Side Dishes">Side Dishes</a></li>
+                  <li><a href="Ya.html#Beverages & Desserts">Bevereges & Desserts</a></li>
+                 </ul>
+                </div>
+            </li>
+            <li><a href="kaze sushi bakar.html#Review">Review</a><i class="fa fa-comment"></i></li>
+            <li><a href="Login.html">Login</a><i class="fa fa-user"></i></li>
+           </ul>        
+        </nav>
+ 
+        <div class="icons">
+            <i class="fas fa-search" id="search-icon"></i>
+        </div> 
+      
+      <form action="https://www.google.com/search" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+      </form>
+
+</header>
+<section class="#order" id="order">
+
+<div class="order-food">
+
+      <form action="Done.html">
+
+        <div class="row0">
+
+            <div class="col0">
+
+                <h3 class="title0">billing address</h3>
